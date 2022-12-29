@@ -22,8 +22,9 @@ def data_Flask():
     return 'this is the data'
 
 # 파이썬에서 메인함수
+# app.run == 해당 app 실행해라
 if __name__ == '__main__':
-    app.run(  # app.run == 해당 app 실행해라
+    app.run(  
     host="0.0.0.0", # 호스트는 0.0.0.0 
     port=7777, # 7777포트 열기
     debug=True) # 디버그 메시지 출력해줘
