@@ -5,7 +5,7 @@ from flask import Flask, request, render_template, redirect, url_for, jsonify
 # static 기능 추가
 app = Flask(__name__)
  
-# 테스트 기능 1
+# 테스트 기능 1 열 때 127.0.0.1:7777/hello 로 들어가야 함
 @app.route('/hello') # app에서 hello라는 요청이들어오면 밑의 함수로 들어가서 실행
 def hello_Flask():
     return 'Hello, Flask'
